@@ -2,11 +2,12 @@
 
 ## Links
 - [Matplotlib cheatsheets and handouts](https://matplotlib.org/cheatsheets/)
-## Test
+
+## Plot
 ```julia
 using PyPlot
-x = rand(10)
-y = rand(10)
+x = -pi:0.1:pi
+y = sin.(x)
 plot(x, y, color="green")
 ```
 
