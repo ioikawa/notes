@@ -8,7 +8,7 @@
 using PyPlot
 x = -pi:0.1:pi
 y = sin.(x)
-plot(x, y, color="green")
+plot(x, y, lw = 5, ls = "--", color="green")
 ```
 
 ## linestyle 
