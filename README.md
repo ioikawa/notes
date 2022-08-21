@@ -8,7 +8,11 @@
 using PyPlot
 x = -pi:0.1:pi
 y = sin.(x)
-plot(x, y, lw = 5, ls = "--", color="green")
+grid()
+legend()
+xlabel("x")
+ylabel("y")
+plot(x, y, lw = 5, ls = "--", color="green", label="sin(x)")
 ```
 
 ## linestyle 
