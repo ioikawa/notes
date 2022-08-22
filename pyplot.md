@@ -7,12 +7,17 @@
 ```julia
 using PyPlot
 x = -pi:0.1:pi
-y = sin.(x)
+
+clf()   # clear
 grid()
-legend()
 xlabel("x")
 ylabel("y")
-plot(x, y, lw = 5, ls = "--", color="green", label="sin(x)")
+xticks(-pi:0.5pi:pi)
+
+plot(x, sin.(x), lw = 5, ls = "dashed", color="green", label="\$\\sin(x)\$")
+plot(x, sin.(x).^2, lw = 2, color="blue", label="\$\\sin^2(x)\$")
+
+legend()
 ```
 
 ## linestyle 
@@ -25,5 +30,5 @@ plot(x, y, lw = 5, ls = "--", color="green", label="sin(x)")
 - `"o"`  ●circle 
 - `"s"`  ■square 
 - `"X"`  ✖cross 
-- `"P"`  plus symbol
-- `"*"`  star 
+- `"P"`  ➕plus symbol
+- `"*"`  ★star 
