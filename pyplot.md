@@ -17,7 +17,7 @@ plot(x, y, lw = 5, ls = "--", color="green", label="sin(x)")
 
 ## linestyle 
 - `"-"` ────── solid
-- `":"  ...... dotted
+- `":"`  ...... dotted
 - "--"  ------ dashed
 
 ## Marker
