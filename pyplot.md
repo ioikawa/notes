@@ -19,3 +19,11 @@ plot(x, y, lw = 5, ls = "--", color="green", label="sin(x)")
 - `"-"` ────── solid
 - `":"  ...... dotted
 - "--"  ------ dashed
+
+## Marker
+- `"."`  。small circle
+- `"o"`  ●circle 
+- `"s"`  ■square 
+- `"X"`  ✖cross 
+- `"P"`  plus symbol
+- `"*"`  star 
